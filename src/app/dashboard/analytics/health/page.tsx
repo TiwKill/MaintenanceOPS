@@ -18,7 +18,7 @@ interface GlobalHealthData {
   timestamp: number;
 }
 
-const WS_URL = 'wss://multipothtech.ddns.net/api/maintenance_ops/v1/ws/telemetry';
+const WS_URL = 'wss://multipothtech.ddns.net/api/maintenance_ops/v1/ws/telemetry/';
 
 // Mock Generator
 const generateHealthMock = (): GlobalHealthData => ({

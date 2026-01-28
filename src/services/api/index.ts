@@ -4,3 +4,4 @@ export * from './operations.api';
 export * from './analytics.api';
 export * from './governance.api';
 export * from './settings.api';
+export * from './multipoth.api';
