@@ -77,7 +77,7 @@ const MAX_HISTORY = 50;
 export default function MachineDetailPage() {
   const params = useParams();
   const machineId = params.machinesId as string;
-  const wsUrl = `wss://multipothtech.ddns.net/api/maintenance_ops/v1/ws/telemetry/${machineId}/`;
+  const wsUrl = `wss://multipothtech.ddns.net/api/maintenance_ops/v1/ws/telemetry/${machineId}`;
 
   const [history, setHistory] = useState<(AssetData & { timeStr: string })[]>([]);
   
